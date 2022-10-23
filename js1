@@ -10,8 +10,12 @@ export default function User({name}){
       li.innerHTML=` 
       <img src= ${photo} alt=${name} >
       ${name}
+      ${name}
       `;
+
+
       return li;
 }
 
 // this is for just testing
+// 이미지 폴더 생성이 필요하고 이미지공유필요
