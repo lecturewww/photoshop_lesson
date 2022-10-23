@@ -1,7 +1,5 @@
 import photo from './images/retro_coin.png';
 
-
-
 export default function User({name}){
       const li=document.createElement("li");
       li.classList.add('user');
@@ -15,3 +13,5 @@ export default function User({name}){
       `;
       return li;
 }
+
+// this is for just testing
