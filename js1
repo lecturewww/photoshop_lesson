@@ -1,0 +1,17 @@
+import photo from './images/retro_coin.png';
+
+
+
+export default function User({name}){
+      const li=document.createElement("li");
+      li.classList.add('user');
+      li.addEventListener('click', (event)=>{
+            alert(name)
+      })
+
+      li.innerHTML=` 
+      <img src= ${photo} alt=${name} >
+      ${name}
+      `;
+      return li;
+}
